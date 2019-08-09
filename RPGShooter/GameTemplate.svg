@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="GameTemplate.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="213.36338"
+     inkscape:cy="102.85714"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect817"
+       width="198.81548"
+       height="290.28571"
+       x="6.8035712"
+       y="3.6904759" />
+    <ellipse
+       style="fill:#ff0000;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path819"
+       cx="49.136902"
+       cy="279.6131"
+       rx="9.0714283"
+       ry="7.5595236" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect827"
+       width="20.410715"
+       height="33.261906"
+       x="21.166666"
+       y="158.66071" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect829"
+       width="51.404762"
+       height="21.922617"
+       x="75.595238"
+       y="98.940468" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect831"
+       width="30.238094"
+       height="16.630953"
+       x="123.22024"
+       y="161.68452" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect833"
+       width="14.363094"
+       height="43.089287"
+       x="102.05357"
+       y="203.2619" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect835"
+       width="15.119047"
+       height="22.678572"
+       x="164.79761"
+       y="204.7738" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect837"
+       width="52.916664"
+       height="28.726189"
+       x="37.041668"
+       y="15.785713" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect839"
+       width="43.845234"
+       height="37.041668"
+       x="151.94643"
+       y="33.172619" />
+    <rect
+       style="fill:none;stroke:#6f7177;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:6, 2;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect841"
+       width="198.81548"
+       height="58.208328"
+       x="6.8035717"
+       y="235.76787" />
+    <rect
+       style="fill:none;stroke:#6f7177;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:5.99999992, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect843"
+       width="2.2678571"
+       height="3.0238097"
+       x="274.41071"
+       y="172.26785" />
+    <rect
+       style="fill:none;stroke:#6f7177;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:5.99999992, 1.99999998;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect845"
+       width="36.285713"
+       height="21.922617"
+       x="-235.85715"
+       y="41.488094" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:2.00000006;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect847"
+       width="34.773811"
+       height="23.434523"
+       x="-236.61308"
+       y="80.797615" />
+    <ellipse
+       style="fill:#ff0000;stroke:#000000;stroke-width:2.00000006;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path849"
+       cx="-222.62798"
+       cy="134.09225"
+       rx="9.4494047"
+       ry="10.961308" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-185.20834"
+       y="53.583332"
+       id="text853"><tspan
+         sodipodi:role="line"
+         id="tspan851"
+         x="-185.20834"
+         y="53.583332"
+         style="stroke-width:0.26458332">Player area</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-181.42856"
+       y="136.73808"
+       id="text857"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="-181.42856"
+         y="136.73808"
+         style="stroke-width:0.26458332">Player</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-183.69643"
+       y="93.648811"
+       id="text861"><tspan
+         sodipodi:role="line"
+         id="tspan859"
+         x="-183.69643"
+         y="93.648811"
+         style="stroke-width:0.26458332">obstacles</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot863"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion865"><rect
+           id="rect867"
+           width="0"
+           height="65.714287"
+           x="-677.14288"
+           y="331.09113" /></flowRegion><flowPara
+         id="flowPara869"></flowPara></flowRoot>    <path
+       sodipodi:type="star"
+       style="fill:#ffff00;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path879"
+       sodipodi:sides="3"
+       sodipodi:cx="88.446426"
+       sodipodi:cy="132.95833"
+       sodipodi:r1="9.0714283"
+       sodipodi:r2="4.5357141"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.446427,142.02976 -3.928044,-6.80357 -3.928044,-6.80358 7.856087,0 7.856088,0 -3.928044,6.80358 z"
+       inkscape:transform-center-y="3.7084954"
+       transform="matrix(0.19770068,0,0,1.6352449,67.870216,-81.579814)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffff00;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path879-9"
+       sodipodi:sides="3"
+       sodipodi:cx="88.446426"
+       sodipodi:cy="132.95833"
+       sodipodi:r1="9.0714283"
+       sodipodi:r2="4.5357141"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.446427,142.02976 -3.928044,-6.80357 -3.928044,-6.80358 7.856087,0 7.856088,0 -3.928044,6.80358 z"
+       inkscape:transform-center-y="3.7084954"
+       transform="matrix(0.19770068,0,0,1.6352449,-241.24782,-50.433648)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-188.9881"
+       y="173.77975"
+       id="text898"><tspan
+         sodipodi:role="line"
+         id="tspan896"
+         x="-188.9881"
+         y="173.77975"
+         style="stroke-width:0.26458332">Direction of movement(down)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-107.34524"
+       y="-51.494045"
+       id="text902"><tspan
+         sodipodi:role="line"
+         id="tspan900"
+         x="-107.34524"
+         y="-51.494045"
+         style="stroke-width:0.26458332">Obstacles should move down at a slow pace towards the bottom of the acreen.</tspan><tspan
+         sodipodi:role="line"
+         x="-107.34524"
+         y="-33.855156"
+         style="stroke-width:0.26458332"
+         id="tspan904">Player has to move out of the way so that they don't get pushed off of the screen and lose.</tspan><tspan
+         sodipodi:role="line"
+         x="-107.34524"
+         y="-16.216269"
+         style="stroke-width:0.26458332"
+         id="tspan906">Some obstacles can be broken by being attacked.</tspan><tspan
+         sodipodi:role="line"
+         x="-107.34524"
+         y="1.4226198"
+         style="stroke-width:0.26458332"
+         id="tspan908" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.01283264px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.70032078"
+       x="76.115135"
+       y="136.97084"
+       id="text912"
+       transform="scale(1.162353,0.86032382)"><tspan
+         sodipodi:role="line"
+         id="tspan910"
+         x="76.115135"
+         y="136.97084"
+         style="fill:#ff0000;stroke-width:0.70032078">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.01283264px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.70032072"
+       x="84.050346"
+       y="268.41257"
+       id="text912-3"
+       transform="scale(1.162353,0.86032384)"><tspan
+         sodipodi:role="line"
+         id="tspan910-8"
+         x="84.050346"
+         y="268.41257"
+         style="fill:#ff0000;stroke-width:0.70032072">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.01283264px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.70032072"
+       x="140.632"
+       y="72.466125"
+       id="text912-2"
+       transform="scale(1.162353,0.86032384)"><tspan
+         sodipodi:role="line"
+         id="tspan910-2"
+         x="140.632"
+         y="72.466125"
+         style="fill:#ff0000;stroke-width:0.70032072">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.01283264px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.70032072"
+       x="-202.10976"
+       y="258.74704"
+       id="text912-6"
+       transform="scale(1.162353,0.86032384)"><tspan
+         sodipodi:role="line"
+         id="tspan910-5"
+         x="-202.10976"
+         y="258.74704"
+         style="fill:#ff0000;stroke-width:0.70032072">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-188.23215"
+       y="217.625"
+       id="text950"><tspan
+         sodipodi:role="line"
+         id="tspan948"
+         x="-188.23215"
+         y="217.625"
+         style="stroke-width:0.26458332">Destructable obstacles</tspan></text>
+  </g>
+</svg>
