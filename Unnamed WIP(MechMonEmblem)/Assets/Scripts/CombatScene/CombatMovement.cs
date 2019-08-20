@@ -22,7 +22,7 @@ public class CombatMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 pos = transform.position + new Vector3(inputVector.x, 0, inputVector.y) * speed * Time.deltaTime;
+        Vector3 pos = transform.position + new Vector3(inputVector.x, 0, 0) * speed * Time.deltaTime;
         pos.x = Mathf.Clamp(pos.x, -_gc.constrainedArea.x / 2 + skin.x, _gc.constrainedArea.x / 2 - skin.y);
         pos.z = Mathf.Clamp(pos.z, -_gc.constrainedArea.y / 2 + skin.x, _gc.constrainedArea.y / 2 - skin.y);
         _rb.MovePosition(pos);
