@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346027cadf6f3a2438d55044e687b433, type: 3}
   m_Name: GrenadeToss
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 8

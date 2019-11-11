@@ -12,7 +12,7 @@ public class CombatMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MeshFilter mf = GetComponent<MeshFilter>();
+        MeshFilter mf = GetComponentInChildren<MeshFilter>();
         skin = new Vector2(mf.mesh.bounds.extents.x, mf.mesh.bounds.extents.z);
         _rb = GetComponent<Rigidbody>();
 

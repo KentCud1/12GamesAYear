@@ -14,35 +14,68 @@ public class CharCombat : MonoBehaviour
     public FarAttack farAttack;
     //far attack.
 
+    Attack currentAttack;
+
+    Animator _anim;
+
     public bool turnIsFinished;
+    public bool animFinished;
+    bool animPlayed;
 
     void Start()
     {
-        
+        _anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
+        //if (currentAttack != null) {
+        //    if (!_anim.GetCurrentAnimatorStateInfo(0).IsName(currentAttack.animName) || !_anim.GetNextAnimatorStateInfo(0).IsName(currentAttack.animName)) {
+        //        animPlayed = true;
+        //        Debug.Log("Anim finished for " + name);
+        //        currentAttack = null;
+        //    }
+        //}
     }
 
     public void Attack(Dist dist, CharCombat other) {
+        currentAttack = null;
         if(dist == Dist.CLOSE) {
-            other.health -= CalculateDamageFromAttack(closeAttack);
-            Debug.Log(name + " has attacked with " + closeAttack.name + ". " + other.name + " has received "+ closeAttack.damage + " damage.");
+            currentAttack = closeAttack;
         }
         else if(dist == Dist.MEDIUM) {
-            other.health -= CalculateDamageFromAttack(mediumAttack);
-            Debug.Log(name + " has attacked with " + mediumAttack.name + ". " + other.name + " has received " + mediumAttack.damage + " damage.");
+            currentAttack = mediumAttack;
         }
         else if(dist == Dist.FAR) {
-            other.health -= CalculateDamageFromAttack(farAttack);
-            Debug.Log(name + " has attacked with " + farAttack.name + ". " + other.name + " has received " + farAttack.damage + " damage.");
+            currentAttack = farAttack;
         }
 
-        
+        other.health -= CalculateDamageFromAttack(currentAttack);
+        Debug.Log(name + " has attacked with " + currentAttack.name + ". " + other.name + " has received " + currentAttack.damage + " damage.");
+
         turnIsFinished = true;
+        Debug.Log("Turn finished for " + name);
+    }
+
+    public void PlayAnimation() {
+        if ((!_anim.GetCurrentAnimatorStateInfo(0).IsName(currentAttack.animName) && !_anim.GetNextAnimatorStateInfo(0).IsName(currentAttack.animName)|| !_anim.HasState(0, Animator.StringToHash(currentAttack.animName))) && animPlayed == true) {
+            animFinished = true;
+        }
+        if (_anim.HasState(0, Animator.StringToHash(currentAttack.animName))) {
+            if (!_anim.GetCurrentAnimatorStateInfo(0).IsName(currentAttack.animName) && !_anim.GetNextAnimatorStateInfo(0).IsName(currentAttack.animName) && animPlayed == false) {
+                _anim.Play(currentAttack.animName);
+                animPlayed = true;
+            }
+        }
+        else {
+            animPlayed = true;
+        }
+
+        if(animFinished == true) {
+            animPlayed = false;
+        }
+
     }
 
     int CalculateDamageFromAttack(Attack atk) {

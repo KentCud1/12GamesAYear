@@ -5,5 +5,6 @@ using UnityEngine;
 public class Attack : ScriptableObject
 {
     public int damage;
+    public string animName;
 
 }

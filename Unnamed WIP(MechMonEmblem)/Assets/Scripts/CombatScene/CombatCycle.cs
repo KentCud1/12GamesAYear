@@ -15,7 +15,7 @@ public class CombatCycle : MonoBehaviour
 
     CharDistance _cd;
 
-    bool attackPhaseFinished = false;
+    bool attackPhaseFinished = false, animatePhaseFinished = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +40,9 @@ public class CombatCycle : MonoBehaviour
                 InitializeCombat();
             }
         }
+        else if(state == CombatState.ANIM) {
+            AnimatePhase();
+        }
 
         Debug.Log(state.ToString());
         _ct.time = timer;
@@ -52,7 +55,9 @@ public class CombatCycle : MonoBehaviour
             state = CombatState.ATTACK;
         }
 
-        timer += Time.deltaTime;
+        if (state == CombatState.TIMER) {
+            timer += Time.deltaTime;
+        }
     }
 
     void CombatPhase() {
@@ -61,11 +66,12 @@ public class CombatCycle : MonoBehaviour
             foreach (CharCombat cc in ccs) {
                 cc.turnIsFinished = false;
             }
-            state = CombatState.TIMER;
+            state = CombatState.ANIM;
         }
         else {
             foreach (CharCombat cc in ccs) {
-                cc.Attack(_cd.distBetweenChars, cc);
+                    cc.Attack(_cd.distBetweenChars, cc);
+                
             }
         }
 
@@ -78,11 +84,36 @@ public class CombatCycle : MonoBehaviour
         }
     }
 
+    void AnimatePhase() {
+        if(animatePhaseFinished == true) {
+            animatePhaseFinished = false;
+            foreach (CharCombat cc in ccs) {
+                cc.animFinished = false;
+            }
+            state = CombatState.TIMER;
+        }
+        else {
+            foreach(CharCombat cc in ccs) {
+                cc.PlayAnimation();
+            }
+        }
+
+        animatePhaseFinished = true;
+        for (int i = 0; i < ccs.Length; i++) {
+            if (ccs[i].animFinished == false) {
+                animatePhaseFinished = false;
+                break;
+            }
+        }
+
+    }
+
     public void InitializeCombat() {
         timer = 0.0f;
         attackPhaseFinished = false;
         foreach (CharCombat cc in ccs) {
             cc.turnIsFinished = false;
+            cc.animFinished = false;
         }
         state = CombatState.TIMER;
     }
@@ -92,5 +123,6 @@ public class CombatCycle : MonoBehaviour
 public enum CombatState {
     TIMER,
     ATTACK,
-    NULL
+    NULL,
+    ANIM
 }
