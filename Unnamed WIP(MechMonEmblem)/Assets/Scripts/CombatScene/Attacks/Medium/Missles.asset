@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Missles
   m_EditorClassIdentifier: 
   damage: 8
+  animName: Missles

@@ -94,6 +94,7 @@ public class CombatCycle : MonoBehaviour
         }
         else {
             foreach(CharCombat cc in ccs) {
+                Debug.Log(cc.gameObject.name + " anim play.");
                 cc.PlayAnimation();
             }
         }

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: GatlingStrike
   m_EditorClassIdentifier: 
   damage: 6
+  animName: GatlingStrike

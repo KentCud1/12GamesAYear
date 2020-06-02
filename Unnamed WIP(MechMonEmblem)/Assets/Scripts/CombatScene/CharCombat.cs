@@ -60,10 +60,12 @@ public class CharCombat : MonoBehaviour
 
     public void PlayAnimation() {
         if ((!_anim.GetCurrentAnimatorStateInfo(0).IsName(currentAttack.animName) && !_anim.GetNextAnimatorStateInfo(0).IsName(currentAttack.animName)|| !_anim.HasState(0, Animator.StringToHash(currentAttack.animName))) && animPlayed == true) {
+            Debug.Log("Animation finished fir " + gameObject.name);
             animFinished = true;
         }
         if (_anim.HasState(0, Animator.StringToHash(currentAttack.animName))) {
             if (!_anim.GetCurrentAnimatorStateInfo(0).IsName(currentAttack.animName) && !_anim.GetNextAnimatorStateInfo(0).IsName(currentAttack.animName) && animPlayed == false) {
+                Debug.Log(gameObject.name + " played " + currentAttack.animName);
                 _anim.Play(currentAttack.animName);
                 animPlayed = true;
             }

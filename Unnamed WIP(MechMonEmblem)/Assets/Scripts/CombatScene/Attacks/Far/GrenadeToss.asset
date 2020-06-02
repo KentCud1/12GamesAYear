@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: GrenadeToss
   m_EditorClassIdentifier: 
   damage: 8
+  animName: GrenadeToss
