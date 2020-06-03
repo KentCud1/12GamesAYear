@@ -1,0 +1,2 @@
+C:\Users\Waterford\Documents\GitHub\12GamesAYear\WIP(\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Waterford\Documents\GitHub\12GamesAYear\WIP(\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
