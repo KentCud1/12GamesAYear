@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+[CreateAssetMenu(fileName = "New Character", menuName = "Characters/New Character")]
+public class Character : ScriptableObject
 {
     [SerializeField]
     private int health;
@@ -14,23 +15,29 @@ public class Character : MonoBehaviour
     private LowerUpperBounds defense;
 
     public int Health {
-        get;set;
+        get => health;
     }
     public int Speed {
-        get; set;
+        get => speed;
     }
     public LowerUpperBounds Attack {
-        get;set;
+        get => attack;
     }
-    public LowerUpperBounds Defense
-    {
-        get; set;
-    }
-
-    public void Start() {
+    public LowerUpperBounds Defense {
+        get => defense;
     }
 
+    private int RollUpperLower(LowerUpperBounds lowerUpper) {
+        return Random.Range(lowerUpper.lower, lowerUpper.upper + 1);
+    }
 
+    public int RollAttack() {
+        return RollUpperLower(attack);
+    }
+
+    public int RollDefense() {
+        return RollUpperLower(defense);
+    }
 
 }
 
